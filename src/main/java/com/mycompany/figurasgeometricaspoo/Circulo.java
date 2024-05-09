@@ -1,10 +1,10 @@
 package com.mycompany.figurasgeometricaspoo;
 
-public class Circulo extends FiguraGeometrica {
+
     private final double radio;
 
     public Circulo(String nombre, String color, double radio) {
-        super(nombre, color);
+        super(nombre, color); 
         this.radio = radio;
     }
 
